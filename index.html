@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/style.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset id="contorno">
+        <legend>API Mercado Bitcoin</legend>
+        <section id="Container">
+            <article class="data" id="data">Terça, 1 Dezembro 2020</article>
+            <div id="Opcoes">
+                <select id="Moeda">
+                    <option value="BTC">BTC - Bitcoin</option>
+                    <option value="ETH">ETH - Ethereum</option>
+                    <option value="XRP">XRP - Ripple</option>
+                </select>
+
+                <select id="Tipo">
+                    <option value="ticker" value="">Resumo das operações executadas</option>
+                </select>
+            </div>
+
+            <div id="Dados">
+                <fieldset>
+                    <legend>Dados das últimas 24 horas</legend>
+                    <article>
+                        <span>Preço da última venda: </span>
+                       <p id="Ultima"></p>
+                   </article>
+                   <article>
+                    <span>Maior preço ofertado: </span>
+                    <p id="Max"></p>
+                </article>
+                <article>
+                    <span>Menor preço ofertado: </span>
+                    <p id="Min"></p>
+                </article>
+                <article>
+                     <span>Maior preço comprado: </span>
+                    <p id="Minultima"></p>
+                </article>
+                <article>
+                     <span>Menor preço comprado: </span>
+                    <p id="Maxultima"></p>
+                </article>
+                <article>
+                    <span>Quantidade vendida: </span>
+                   <p id="Volume"></p>
+               </article>
+            </fieldset>
+            </div>
+
+ 
+                <button id="btn">
+                    Consultar
+                </button>
+
+        </section>
+    </fieldset>
+    
+</body>
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<script src="./src/script.js"></script>
+</html>

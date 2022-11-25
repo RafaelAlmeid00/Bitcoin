@@ -1,0 +1,2 @@
+Caso não funcione, descompacte a pasta na area de trabalho para utilizar a API. 
+Pois a refrencia no HTML do Javascript ou CSS, pode ficar errada caso seja aberta em outro local.
