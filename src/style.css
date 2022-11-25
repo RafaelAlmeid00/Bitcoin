@@ -1,0 +1,51 @@
+
+#Container {
+    width: 100%;
+    height: auto;
+}
+
+#contorno {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+legend {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.data {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#Opcoes {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#Dados article p {
+    display: inline;
+}
+
+#Dados article {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+
+#btn {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 100px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+
